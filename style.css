@@ -1146,16 +1146,17 @@ transition: all 1s ease-in-out;
     color: #ffa500;
   }
   .slide-container{
-    height: 29em;
+    height: 27em;
     width: 100%;
     padding: 30px;
-  background-color: grey;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .slide-content{
-    width: 21%;
+    width: 80%;
+    height: 90%;
     
   }
   .image-content{
@@ -1165,7 +1166,8 @@ transition: all 1s ease-in-out;
     justify-content: center;
     width: 100%;
     height: 50%;
-    border-radius: 10%;
+    border-radius: 12%;
+    margin-bottom: 35px;
     border-bottom-right-radius: 0;
     background: orange;
     
@@ -1175,10 +1177,10 @@ transition: all 1s ease-in-out;
     content: '';
     position: absolute;
     right: 0;
-    bottom: -10%;
+    bottom: -12%;
     background-color:orange;
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
   
   }
   .overlay::after{
@@ -1187,11 +1189,12 @@ transition: all 1s ease-in-out;
     background-color: white;
   }
 .card{
-  width: 100%;
+  width: 25%;
   justify-content: center;
   background-color:white;
-  border-radius: 10%;
-  height: 26rem;
+  border-radius: 12%;
+  height:60%;
+
 }
   .card_image{
   
@@ -1227,6 +1230,6 @@ transition: all 1s ease-in-out;
     color:white;
   }
 
-  .card-content{
-
+  .card-wrapper{
+    justify-content: space-between;
   }

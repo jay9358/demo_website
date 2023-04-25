@@ -2,7 +2,15 @@
     const togglebtn_icn=document.querySelector(".toggle i");
     const dropdown=document.querySelector(".dropdown");
     const services=document.querySelector(".ser i");
-   
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 100,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
     var x=window.matchMedia("(min-width:520px)");
     const max_services=document.querySelector(".max_services")
     togglebtn.onclick=function(){
