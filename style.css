@@ -1146,40 +1146,60 @@ transition: all 1s ease-in-out;
     color: #ffa500;
   }
   .slide-container{
-    height: 25em;
+    height: 29em;
     width: 100%;
-  
+    padding: 30px;
+  background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .slide-content{
-    width: 20%;
+    width: 21%;
     
   }
   .image-content{
+    position: relative;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
-    width: 120%;
+    width: 100%;
     height: 50%;
+    border-radius: 10%;
+    border-bottom-right-radius: 0;
+    background: orange;
+    
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    background-color:orange;
+    width: 10%;
+    height: 10%;
+  
+  }
+  .overlay::after{
+  
+    border-radius: 0px 25px 0 0;
+    background-color: white;
   }
 .card{
   width: 100%;
- 
   justify-content: center;
   background-color:white;
   border-radius: 10%;
-  padding: 10px;
-
   height: 26rem;
 }
   .card_image{
-    position: relative;
+  
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100%;
-    border: 4px solid orange;
+    border: 4px solid white;
   }
   .card_image img{
     border-radius: 100%;
@@ -1204,7 +1224,7 @@ transition: all 1s ease-in-out;
   }
   .icon a:hover{
     font-size:1.6rem ;
-    color: orange;
+    color:white;
   }
 
   .card-content{
