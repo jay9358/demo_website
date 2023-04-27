@@ -6,11 +6,63 @@
       slidesPerView: 3,
       spaceBetween: 100,
       freeMode: true,
+      fade:'true',
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
     });
+
+var a=0;
+    function toggle_open(){
+      const body=document.querySelector("body");
+      const popup=document.querySelector(".popup");
+      const blur =document.querySelector(".blur");
+
+      var pos=window.scrollY;
+      if(a==0){
+        a=1;
+      }
+      
+     if(a==1){
+      blur.style.top=pos + 'px';
+      blur.style.display="block";
+      popup.style.display="block";
+     }
+     body.classList.add("no-scroll");
+
+   
+     console.log(a);
+    }
+  
+    function toggle_close(){
+     
+   
+      a=0;
+      const popup=document.querySelector(".popup");
+      const blur =document.querySelector(".blur");
+      const body=document.querySelector("body")
+
+      blur.style.display="none";
+      popup.style.display="none";
+      body.classList.remove("no-scroll");
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var x=window.matchMedia("(min-width:520px)");
     const max_services=document.querySelector(".max_services")
     togglebtn.onclick=function(){
