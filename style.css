@@ -5,6 +5,13 @@
 }
 body{
   background-color: black;
+  
+}
+.container{
+  position: absolute;
+  height: 100%;
+  
+  cursor: none;
 }
 body::-webkit-scrollbar{
   width: 0.27rem;
@@ -133,7 +140,7 @@ position: relative;
   opacity: 1;
   font-family: gilory;
   transition: opacity 0.5s ease-in-out;
-
+  z-index: 1;
 }
 .quote_container input{
   block-size: 30px;

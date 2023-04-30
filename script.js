@@ -100,8 +100,8 @@ var a=0;
       var customservice=document.querySelector(".custom_services");
       var scrollPosition = window.scrollY + window.innerHeight;
       var containerPosition = quoteContainer.offsetTop + quoteContainer.offsetHeight;
-     
-      var customservicepos= customservice.offsetTop + (customservice.offsetHeight)-220;
+      var slimecontainer=this.document.querySelector(".container");
+        var customservicepos= customservice.offsetTop + (customservice.offsetHeight)-220;
       var customserviceposforflawless= customservice.offsetTop + (customservice.offsetHeight)+150;
       var navbar=document.querySelector(".navcontainer");
       var mobiledevheading=document.querySelector(".mobile_dev_heading");
@@ -117,7 +117,7 @@ var a=0;
       var dmheading=document.querySelector(".dm_heading");
       var dmheadingpos=dmheading.offsetHeight+dmheading.offsetTop;
       var dm_video= document.querySelector(".dm_video video")
-    
+      
 
       var s_heading=this.document.querySelectorAll(".s_content");
       for(var i =0 ; i < 9;i++ ){
@@ -142,7 +142,9 @@ var a=0;
        }
 
 
+       var slimecontainerpos=this.window.scrollY;
 
+       slimecontainer.style.top=slimecontainerpos+'px';
 
 
 
