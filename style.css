@@ -406,19 +406,26 @@ position: relative;
     display: none;
     
   }
+  .navcontainer{
+    height: 20px;
+  }
   .web{
     
     width: 100%;
-    height: 36vh;
+    height: 16vh;
+    
     
   }
+  .open{
+    height: 30rem;
+  }
   .web spam{
-    font-size: 44px;
+    font-size: 55px;
     text-align: center;
     padding-top: 20px;
   }
   .web p{
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -426,8 +433,8 @@ position: relative;
     width: 90%;
     padding-top: 0;
     justify-content: center;
-    align-items: center;
-    height: 50vh;
+    align-items:start;
+    height: 20vh;
     display: flex;
     padding-bottom: 10px;
   }
@@ -457,11 +464,14 @@ padding-top: 0;
     width: 100%;
   }
   .dev{
-    height: 102vh;
-    display: block;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .navbar{
     justify-content: space-between;
+    
   }
   .navbar .logo{
     justify-content: left;
@@ -478,17 +488,25 @@ padding-top: 0;
   }
   .dropdown{
     display: block;
+    width: 30rem;
+   
+  }
+  .dropdown li{
+    height: 5rem;
+    font-size: 45px;
   }
   .max_services{
     position: absolute;
     
   
-    top:164px;
-    right:15rem;  
-    
-    display: none; 
+    height: 14rem;
+    top:15rem;
+    right:27rem;  
+    width: 17rem;
+    display:flex;
+    flex-direction: column; 
     margin: 3px;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     background: #f3efef17;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -499,8 +517,12 @@ padding-top: 0;
     transition: display 500ms ease-out; 
     transform: translateX(1px);
   }
+  .max_services li{
+    font-size: 33px;
+    height: 3rem;
+  }
   .max_services li :hover{
-    font-size: 25px;
+    font-size: 42px;
     color: orange;
   }
   .custom_image{
