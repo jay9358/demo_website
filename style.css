@@ -406,6 +406,10 @@ position: relative;
     display: none;
     
   }
+  .container{
+    height: 0;
+    width: 0;
+  }
   .navcontainer{
     height: 20px;
   }
