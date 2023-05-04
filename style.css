@@ -10,7 +10,7 @@ body{
 .container{
   position: absolute;
   height: 100%;
-  
+ 
   cursor: none;
 }
 body::-webkit-scrollbar{
