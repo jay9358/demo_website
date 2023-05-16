@@ -227,7 +227,7 @@ var a=0;
           dm_easy.classList.remove('open_right');
           dm_easy.style.opacity="0";
         }
-        var mobiledevimgsectionpos=mobiledevimgsection.offsetTop + mobiledevimg.offsetHeight+120;
+        var mobiledevimgsectionpos=mobiledevimgsection.offsetTop + mobiledevimg.offsetHeight+200;
       
         if (scrollPosition > mobiledevimgsectionpos && scrollPosition<mobiledevimgsection_pos){
           var value = scrollPosition;
