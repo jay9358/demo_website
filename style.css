@@ -1054,10 +1054,7 @@ transition: all 1s ease-in-out;
     border-top: 1px solid black;
     width: 75%;
   }
-  .s_content:hover >p  {
-    transform: translateY(-9rem);
-    opacity: 1;
-  }
+ 
   .s_content:hover >div{
     font-size: 22px;
     color: #ffa500;
