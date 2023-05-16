@@ -386,183 +386,7 @@ position: relative;
     text-align: center;
 }
 
-@media(max-width:520px) {
-  .dropdown {
-    display: block;
-    left:2rem;
-    width: unset;
-  }
-  .ser i{
-    display:none;
-  }
-  .about i{
-    display: none;
-  }
-  .max_services{
-    display: none;
-  }
-}
-@media(max-width:992px){
-  .navbar .menu ,.navbar .action_btn{
-    display: none;
-    
-  }
-  .mobile_dev_services{
-    height: 85rem;
-  }
-  .mobile_dev_services_content div{
-    height: 37%;
-  }
-  .action_btn{
-    height: 3rem;
-    font-size: 2rem;
-  }
-  .dm_easy_allcontent{
-    height: 45rem;
-  }
-  .gap{
-    width: 0;
-    height: 0;
-  }
-  .container{
-    height: 0;
-    width: 0;
-  }
-  .navcontainer{
-    height: 20px;
-  }
-  .web{
-    
-    width: 100%;
-    height: 24rem;
-    
-    
-  }
-  .open{
-    height: 30rem;
-  }
-  .web spam{
-    font-size: 55px;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .web p{
-    font-size: 30px;
-    text-align: center;
-  }
 
-  .intro_img{
-    width: 90%;
-    padding-top: 0;
-    justify-content: center;
-    align-items:start;
-    height: 26rem;
-    display: flex;
-    padding-bottom: 10px;
-  }
-  .intro_img img{
-width: 80%;
-padding-top: 0;
-  }
-  .quote_container{
-    top:0;
-  }
-  .custom{
-    height: 40rem;
-  }
-  .flawless{
-    padding-top: 30px;
-  }
-  .flawless .content section div{
-    width: 85%;
-  }
-  .flawless .content section{
-    width: 25%;
-  }
-  .custom_services p{
-    padding: 0;
-    overflow-y: scroll;
-    height: 40vh;
-    width: 100%;
-  }
-  .dev{
-    height: 70rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .navbar{
-    justify-content: space-between;
-    
-  }
-  .navbar .logo{
-    justify-content: left;
-   width: 61vh;
-  }
-  .toggle{
-    text-align: right;
-    width: 4%;
-    margin: 35px;
-  }
-
-  .toggle i{
-    display: block;
-  }
-  .dropdown{
-    display: block;
-    width: 30rem;
-   
-  }
-  .dropdown li{
-    height: 5rem;
-    font-size: 45px;
-  }
-  .max_services{
-    position: absolute;
-    
-  
-    height: 14rem;
-    top:15rem;
-    right:27rem;  
-    width: 17rem;
-    display:flex;
-    flex-direction: column; 
-    margin: 3px;
-    backdrop-filter: blur(3px);
-    background: #f3efef17;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-radius:0;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-    overflow: hidden;
-    transition: display 500ms ease-out; 
-    transform: translateX(1px);
-  }
-  .max_services li{
-    font-size: 33px;
-    height: 3rem;
-  }
-  .max_services li :hover{
-    font-size: 42px;
-    color: orange;
-  }
-  .custom_image{
-    padding-top: 100px;
-
-  }
-  .custom_image img{
-    width: 100%;
-  }
-  .about i{
-    text-align: center;
-    justify-content: center ;
-    padding-top: 2px;
-    width: 20px;
-    color: orange;
-  }
-  
-}
 
 .services{
   position: relative;
@@ -1404,4 +1228,181 @@ transition: all 1s ease-in-out;
     font-size: 15px;
     font-family: gilory med;
   
+  }
+  @media(max-width:520px) {
+    .dropdown {
+      display: block;
+      left:2rem;
+      width: unset;
+    }
+    .ser i{
+      display:none;
+    }
+    .about i{
+      display: none;
+    }
+    .max_services{
+      display: none;
+    }
+  }
+  @media(max-width:992px){
+    .navbar .menu ,.navbar .action_btn{
+      display: none;
+      
+    }
+    .mobile_dev_services{
+      height: 85rem;
+    }
+    .mobile_dev_services_content div{
+      height: 37%;
+    }
+    .action_btn{
+      height: 3rem;
+      font-size: 2rem;
+    }
+    .dm_easy_allcontent{
+      height: 45rem;
+    }
+    .gap{
+      width: 0;
+      height: 0;
+    }
+    .container{
+      height: 0;
+      width: 0;
+    }
+    .navcontainer{
+      height: 20px;
+    }
+    .web{
+      
+      width: 100%;
+      height: 24rem;
+      
+      
+    }
+    .open{
+      height: 24rem;
+    }
+    .web spam{
+      font-size: 55px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .web p{
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .intro_img{
+      width: 90%;
+      padding-top: 0;
+      justify-content: center;
+      align-items:start;
+      height: 26rem;
+      display: flex;
+      padding-bottom: 10px;
+    }
+    .intro_img img{
+  width: 80%;
+  padding-top: 0;
+    }
+    .quote_container{
+      top:0;
+    }
+    .custom{
+      height: 40rem;
+    }
+    .flawless{
+      padding-top: 30px;
+    }
+    .flawless .content section div{
+      width: 85%;
+    }
+    .flawless .content section{
+      width: 25%;
+    }
+    .custom_services p{
+      padding: 0;
+      overflow-y: scroll;
+      height: 40vh;
+      width: 100%;
+    }
+    .dev{
+      height: 70rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .navbar{
+      justify-content: space-between;
+      
+    }
+    .navbar .logo{
+      justify-content: left;
+     width: 61vh;
+    }
+    .toggle{
+      text-align: right;
+      width: 4%;
+      margin: 35px;
+    }
+  
+    .toggle i{
+      display: block;
+    }
+    .dropdown{
+      display: block;
+      width: 25rem;
+     
+    }
+    .dropdown li{
+      height: 4rem;
+      font-size: 44px;
+    }
+    .max_services{
+      position: absolute;
+      
+    
+      height: 14rem;
+      top:15rem;
+      right:27rem;  
+      width: 17rem;
+      display:flex;
+      flex-direction: column; 
+      margin: 3px;
+      backdrop-filter: blur(3px);
+      background: #f3efef17;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-radius:0;
+      border-top-left-radius: 24px;
+      border-bottom-left-radius: 24px;
+      overflow: hidden;
+      transition: display 500ms ease-out; 
+      transform: translateX(1px);
+    }
+    .max_services li{
+      font-size: 33px;
+      height: 3rem;
+    }
+    .max_services li :hover{
+      font-size: 42px;
+      color: orange;
+    }
+    .custom_image{
+      padding-top: 100px;
+  
+    }
+    .custom_image img{
+      width: 100%;
+    }
+    .about i{
+      text-align: center;
+      justify-content: center ;
+      padding-top: 2px;
+      width: 20px;
+      color: orange;
+    }
+    
   }
