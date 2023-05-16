@@ -1326,8 +1326,12 @@ transition: all 1s ease-in-out;
 width: 80%;
 padding-top: 0;
   }
+  .quote_container.hidden{
+    opacity: 1;
+  }
   .quote_container{
     top:0;
+   
   }
   .custom{
     height: 40rem;
